@@ -5,7 +5,7 @@ export const Home = () => {
   const {state} = useLocation();
   console.log(state)
   return (
-    <h1 className='home mt-5'>My name is {state?.Name} </h1>
+    <h1 className='home mt-5'>My name is Rakesh </h1>
   )
 }
 export default Home;
